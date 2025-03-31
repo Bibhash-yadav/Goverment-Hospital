@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment us</title>
+    <style>
+        body{
+            
+            background-color: beige;
+        }
+        form {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        input {
+            width: 90%;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid red;
+            border-radius: 12px;
+        }
+
+        textarea {
+            width: 90%;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid red;
+            border-radius: 12px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid  rgb(255, 0, 0) ;
+            color: black;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        button:hover{
+            /* border:2px solid red ; */
+            background-color:  rgba(0, 0, 0, 0.646) ;
+            color: white;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration-line: underline;
+        }
+        a{
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+        h2{
+            margin: 0;
+            padding: 0;
+        }
+        fieldset{
+            border: 2px solid black;
+        }
+        legend{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width:600px) {
+            input {
+                width: 80%;
+            }
+
+            textarea {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formspree.io/f/moqbyrga" method="post">  
+        <h1>Comment Us</h1>
+        <fieldset>
+            <legend>Please full fill all data</legend>
+        <input type="text" name="name" placeholder="Enter your name..." required>
+        <input type="email" name="email" placeholder="Enter your email..." required>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..." required></textarea>
+        <div class="button">
+            <button type="submit">Send📩</button>
+            <button type="reset">Reset🔄</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>

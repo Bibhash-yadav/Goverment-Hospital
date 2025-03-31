@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Toggle Button</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        /* Dark Mode Styles */
+        .dark-mode {
+            background-color: #222;
+            color: #fff;
+        }
+
+        /* Toggle Button Container */
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Toggle Button Styles */
+        .toggle-button {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 30px;
+        }
+
+        .toggle-button input {
+            display: none;
+        }
+
+        .slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            border-radius: 30px;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 24px;
+            width: 24px;
+            background-color: white;
+            border-radius: 50%;
+            top: 3px;
+            left: 3px;
+            transition: 0.4s;
+        }
+
+        input:checked + .slider {
+            background-color: #4CAF50;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(30px);
+        }
+
+        /* Text Below Toggle */
+        .toggle-text {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        function toggleDarkMode() {
+            var body = document.body;
+            var text = document.getElementById("toggleText");
+            var isChecked = document.getElementById("darkModeToggle").checked;
+
+            // Toggle dark mode class
+            body.classList.toggle("dark-mode");
+
+            // Update text based on state
+            if (isChecked) {
+                text.innerHTML = "Dark Mode";
+            } else {
+                text.innerHTML = "Light Mode";
+            }
+        }
+    </script>
+</body>
+</html>

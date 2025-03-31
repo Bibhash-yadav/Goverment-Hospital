@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <title>research</title>
+</head>
+<style>
+
+    h1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Ubuntu';
+    }
+
+    h2 {
+        width: 100%;
+        display: flex;
+        /* padding: 20px; */
+        text-align: center;
+        justify-content: center;
+        color: red;
+    }
+
+    .sr {
+        width: 100%;
+        display: flex;
+    }
+
+    .intro {
+        width: 70%;
+        display: flex;
+        font-size: 23px;
+        text-align: justify;
+        padding: 30px;
+    }
+
+    .intro-video {
+        width: 30%;
+        display: flex;
+        height: 300px;
+        justify-content: center;
+    }
+
+    .intro-video video {
+        width: 80%;
+    }
+
+    .video {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .video video {
+        width: 20%;
+        padding: 10px;
+        height: 20%;
+        border-radius: 50px;
+    }
+
+    .intro-video video {
+        border-radius: 50px;
+    }
+
+    .sir-problem {
+        font-size: 20px;
+        width: 97%;
+        padding: 20px;
+        text-align: justify;
+    }
+
+
+    .me-researched {
+        display: flex;
+        width: 100%;
+    }
+
+    .details {
+        width: 60%;
+        font-size: 20px;
+        padding: 20px;
+        text-align: justify;
+    }
+
+    a {
+        color: red;
+        text-decoration: none;
+    }
+
+    .details-video {
+        width: 40%;
+    }
+
+    .details-video video {
+        height: 400px;
+        width: 400px;
+        padding-left: 20px;
+        border-radius: 50px;
+    }
+
+    .bushra {
+        width: 100%;
+        display: flex;
+    }
+
+    .image-details {
+        width: 60%;
+        display: flex;
+        padding: 20px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .image {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image img {
+        width: 50%;
+        border-radius: 50px;
+    }
+    .about{
+        width: 97%;
+        padding: 20px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .history{
+        width: 100%;
+        display: flex;
+    }
+    .history-txt{
+        width: 60%;
+        padding: 20px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    .history-image{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .history-image img{
+        width: 80%;
+        height: 300px;
+    }
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+    .youtube{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 20px 0px 20px 0px;
+    }
+embed{
+    width: 50%;
+    padding-top: 30px;
+    height: 500px;
+}
+h2{
+    color: blue;
+    padding: 10px 0px 10px 0px;
+}
+.session-7{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.session-7-txt{
+    font-size: 20px;
+}
+.session-7-image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.session-7-image img{
+    width: 50%;
+    border: 2px solid red;
+    padding-top: 20px;
+}
+.session-8{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.session-8-txt{
+    font-size: 20px;
+}
+.session-8-image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.session-8-image img{
+    width: 50%;
+    border: 2px solid red;
+    padding-top: 20px;
+}
+    @media only screen and (max-width:836px) {
+        .sr {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .intro {
+            width: 97%;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .intro-video {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video video {
+            width: 60%;
+        }
+
+        .me-researched {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .details {
+            width: 97%;
+            /* display: flex; */
+            padding: 20px;
+        }
+
+        .details-video {
+            width: 100%;
+            display: flex;
+        }
+
+        .bushra {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .image-details {
+            width: 97%;
+            display: flex;
+            padding: 20px;
+        }
+
+        .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .history{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .history-txt{
+            width: 97%;
+            /* display: flex; */
+        }
+        .history-image{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    }
+</style>
+
+<body>
+
+
+    <h1>TOPIC: GOVERNMENT HOSPITAL</h1>
+    <h1>Primary research</h1>
+    <div class="sr">
+        <div class="intro">
+            In the last session, our teacher gave us a task to do primary and secondary research on the topic *Problems
+            Faced in Government Hospitals.* Our team planned to visit a government hospital in Kannur on Saturday for
+            primary research, but it was closed because of a holiday, so we couldn’t collect firsthand data. Instead,
+            we focused on secondary research to understand the issues. In this session, we presented our findings based
+            on
+            secondary research, and this video shows our presentation and the main points we shared.
+        </div>
+        <div class="intro-video">
+            <video controls>
+                <source src="hospital video/secondary-research.mp4" type="video/mp4">
+            </video>
+        </div>
+
+
+    </div>
+
+
+    <div class="sir-problem">
+        Our team gave the presentation, and while it was good, our sir expected more from us. We
+        made a mistake during our secondary research because we didn’t check the dates of the sources we used. This made
+        him a bit upset. After the presentation, my team and I decided to visit the government hospital on Thursday to
+        do primary research and gather better information. <br> Here are some pictures and videos from our visit to the
+        hospital.
+    </div>
+
+    <div class="video">
+        <video controls>
+            <source src="hospital video/chetan-2.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/bushra 2.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/bushra.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/chiran-bhai.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/chiran-bhai2.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/vijay.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/datta.mp4">
+        </video>
+        <video controls>
+            <source src="hospital video/datta2.mp4">
+        </video>
+
+    </div>
+    <div class="me-researched">
+        <div class="details">
+            My team and I visited <a
+                href="https://sabvmcri.karnataka.gov.in/info-2/Bowring+and+Lady+Curzon+Hospitals/en">Bowring & Lady Curzon Hospitals</a> for our research to observe the conditions and gather information. Upon
+            arrival, we noticed that the building was undergoing repairs, which caused some disruption and made the
+            environment less comfortable. Inside the hospital, we observed that the cleanliness was poor, and there was
+            a
+            strong unpleasant smell in the air, which affected the overall atmosphere. Despite these issues, we spoke to
+            many people, including staff and patients, to understand their experiences and gather insights about the
+            hospital's functioning.
+            <br>
+            <br>
+            Additionally, we noticed some problems with the hospital’s security staff. One security guard was found
+            sleeping
+            during her duty, while another was busy on a phone call, which raised concerns about the level of attention
+            given to security. We also observed that out of the six lifts in the hospital, only two were working
+            properly,
+            which likely caused inconvenience for patients and visitors.
+            <br>
+            <br>
+            I asked some students who were training at the hospital about their experiences, but they seemed hesitant to
+            share anything negative. They were worried that if they spoke up, they might face consequences and be
+            removed
+            from their positions. To ease their concerns, I explained that I wasn’t sharing their responses with anyone
+            else
+            and that my team and I were simply conducting research for a design thinking project. After this, they felt
+            more
+            comfortable talking.
+            <br><br>
+            One of the students then asked me which college I was studying at, and I told them that I am studying B.Tech
+            in
+            Computer Science and Engineering at CMR University. After hearing this, they seemed more willing to share
+            their
+            thoughts. I asked the students whether the doctors were polite or rude. they mentioned that while some
+            doctors
+            are polite, others can be rude with the patients. When I asked about the bad smell in the hospital, they
+            told me
+            that it’s not just a one-time issue—it’s something they experience every day and has become a regular
+            problem.
+        </div>
+        <div class="details-video">
+            <video controls>
+                <source src="hospital video/me.mp4">
+            </video> <br><br>
+        </div>
+    </div>
+
+    <h2>
+        Bushra conducted the primary research for this topic. It is a significant subject, hence I documented below.
+    </h2>
+    <div class="bushra">
+        <div class="image-details">
+            During our primary research, we interviewed people who shared some issues they face at the hospital. They
+            mentioned having to stand in long queues, even for small payments of ₹100 or ₹50, which is challenging
+            during
+            emergencies. There were not enough chairs near the operation theatre for patients' relatives to sit, and
+            ongoing
+            construction work nearby caused a lot of disturbance. Here are some pictures of my team and me conducting
+            interviews and primary research.
+        </div>
+        <div class="image">
+            <img src="hospital video/image.jpg" alt="hospital image">
+        </div>
+
+    </div>
+
+    <h1>Secondary research</h1>
+    <h2>About</h2>
+    <div class="about">
+        Bowring and Lady Curzon Hospitals (BLCH) is a teaching hospital and autonomous university in Bengaluru,
+        Karnataka, India. It was originally a medical institution belonging to Mysore State, but in 1884 it was made
+        over to the Civil and Military Administration. This hospital was only the Civil Medical Institution of Bengaluru
+        till 1890. It had accommodation for 104 beds, of which 80 were for men and 24 for women patients. Additional
+        accommodation for female patients was provided by the donations contributed by philanthropic citizens and by the
+        Government of India. Sri Atal Bihari Vajpayee Medical College and Research Institute inaugurated on 29 December
+        2020 is located close by.
+
+        Located in Shivajinagar in the city's central business district, the 152-year-old hospital has also taught
+        students pursuing medical degrees since the late 19th century during the British Raj.
+    </div>
+    <h2>History</h2>
+    <div class="history">
+        <div class="history-txt">
+           
+        The Bowring & Lady Curzon Hospitals was built on the plan of the Lariboisière Hospital in Paris and was formally
+        opened in 1868 by Mr. Lewin Benthon Bowring, the then Commissioner of Mysore. It was originally a medical
+        institution belonging to Mysore State, but in 1884 it was made over to the Civil and Military Administration.
+        This hospital was only the Civil Medical Institution of Bengaluru till 1890. It had accommodation for 104 beds,
+        of which 80 were for men and 24 for women patients. Additional accommodation for female patients was provided by
+        the donations contributed by philanthropic citizens and by the Government of India. This additional hospital was
+        named Lady Curzon Hospital. The two hospitals were fully equipped with X - ray and Pathological laboratory. They
+        were both placed in the combined charge of one Superintendent in 1911. In 1947, the Civil and Military station
+        were retroceded to the Mysore Durbar. As a consequence of this, the Bowring & Lady Curzon Hospitals along with
+        other medical institutions of the area were placed under the administrative control of the Mysore Medical
+        Department.
+
+        Research activity : The institute played active role during COVID-19 pandemic not only by providing healthcare
+        services but also enriching medical science through its research work. <a href="https://en.wikipedia.org/wiki/Bowring_%26_Lady_Curzon_Hospitals">Source</a>
+         
+    </div>
+        <div class="history-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lady_Curzon_Hospital%2C_Bangalore_by_CH_Doveton_%281900%29..jpg/1280px-Lady_Curzon_Hospital%2C_Bangalore_by_CH_Doveton_%281900%29..jpg"
+                alt="history image of hospital">
+        </div>
+    </div>
+
+    <h2>Reviews of Hospital</h2>
+    <!-- <div class="reviews_txt">
+        One of the best renowned hospital in Bangalore. They have been governed by government. Free service is available for bp card citizens. Facilities are great and care taking is also good. Doctors are well experienced and practiced. Admissions and free consultations are available. They multi specialty doctors. Campus is huge and wards are maintained with cleanliness and hygiene. <br>
+        My review is only wrt to getting covid vaccination here . It was an excellent experience with a clean hospital and courteous staff and with all covid protocols being followed. No crowding anywhere and adequate parking space too. The only issue was in finding the vaccination room which is in the Atal Bihari Vajpayee building <br>
+        Bowring And Lady Curzon Hospital is a top-notch facility with easy booking options. The staff is extremely professional and the infrastructure is well-maintained. I had a great experience during my visit. I highly recommend this hospital for anyone seeking quality medical care. <br>
+        This hospital will having a good skin care doctors in the boring hospital i have a good experience with this hospital and i will recommend to visit the hospital for skin care and skin allergy . and in our family all are good there only to skin allergy <br>
+        Hospital is one of the famous decath hospital in a year all you can find all the multispecially doctors over here.. the treatment a specially done for the poor people it is very very useful for the people who are in a low class... waiting time is little bit long but it is free of cost for the people who are very poor. <br>
+        My father 63 year old was diagnosed as he was suffering from vericose vein I visited this boarding hospital and I met Dr Kempegowda he really took his time to explain father condition and suggested to do the operation and I am very greatful to all his team member who assested him to do the operation successfully I had a great visit and the doctors deminar has really put me at is so highly recommended Dr Kempegowda from boring Hospital <br>
+        My review is only wrt to getting covid vaccination here on May 9. It was an excellent experience with a clean hospital and courteous staff and with all covid protocols being followed. No crowding anywhere and adequate parking space too. The only issue was in finding the vaccination room which is in the Atal Bihari Vajpayee building but once done was out in 50mins including the wait time. Attaching a few pics to give you an idea of how it was <br>
+        Really it is very good hospital I got very good service from everyone like nurse doctors care taker everyone one was very caring there is no negligence for taking care medicine treatment everything was good I will suggest hospital to everyone if any health issues <br>
+        Its Good hospital with lesser amount!!! my borther got Seizures we all family went to different hospital but this bowring and lady curzon hospital helped us to admit my brother and suggested to take him to victoria hospital city market location with pradhana mantri health helpline we only paid lesser amount he got cured. Thanks to doctor who suggested us to do so!!! <br>
+        Facilities are good and if u have BPL card the for every treatment amount 50 percent will be discount and if u make a card of Modi scheme of ayushman Baya yogana for everything treatment will be free... But taking care of patient is careless everything depends upon the doctor who is treating the patient.. if u get a good doctor it`s ur luck or its difficult for everything u have to go and ask and follow up
+    </div> -->
+<div class="reviews">  <a href="reviews.html"> <button>Click here to see reviews</button></a></div>
+ 
+<h2>Youtube Video</h2>
+<div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/f1Lk0X1klLA?si=9KGnJEM28jjfefBW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TOhk1Fwnfe4?si=rFrkjAVBFJzXbavY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<h1 id="Toolkit-Arsenal-02">Toolkit Arsenal-02</h1>
+<div class="session-7">
+    <div class="session-7-txt">In this session, our task was to create three key diagrams—Why Web Map, Stakeholder Map, and Empathy Map—to analyze the problem of administrative issues in government hospitals. This exercise was crucial for breaking down the problem, identifying the key people involved, and understanding their perspectives. Here’s how we approached the task: <br><br>
+
+        Why Web Map Creation: <br><br>
+        
+        Defining the Problem: <br>
+        The first step was to define the core issue: Administrative problems in government hospitals. We discussed and identified various factors contributing to this issue, including: <br> <br>
+        
+        Inefficient management: Long queues at cash counters and patients being redirected between doctors. <br>
+        Hygiene issues: Poor cleanliness and lack of water facilities. <br>
+        Staff shortages: Insufficient doctors, nurses, and support staff. <br>
+        Communication barriers: Language differences that make it difficult for patients to communicate. <br>
+        A Why Web Map is a visual representation of the root causes and interconnected factors of a central problem. <br>
+        
+        We began by placing the central problem, “administrative issues in government hospitals,” at the heart of the map. From there, we branched out into different layers: <br>
+        
+        First Layer: Key problem areas like hygiene, management, staff shortages, and communication. <br>
+        Second Layer: Specific causes such as lack of resources, insufficient funding, and untrained staff. <br>
+        Third Layer: Broader consequences, including patient dissatisfaction and erosion of trust in public healthcare.  <br>
+        </div>
+        <h2>Why web map</h2>
+    <div class="session-7-image">
+        <img src="main-page-image/session7-01.webp" alt="">
+    </div>
+    <div class="session-7-image"> <embed src="Why_Web.pdf" type=""></div>
+    <div class="session-7-txt">The Why Web Map became increasingly complex as we continued to explore the interconnections between the causes. The web started to look cluttered, making it difficult to track the relationships between the causes and their effects. <br> <br>
+
+        To address this, Dattatreya took the initiative to reorganize the Why Web Map. She restructured the connections for clarity, grouping related issues together and ensuring neatness. The revised map retained all the points from our brainstorming session but was presented in a more structured, easy-to-understand way. <br> <br>
+        
+        This activity underscored the importance of clarity and structure in problem-solving. Redrawing the map not only improved its visual appeal but also enhanced the efficiency of our analysis, helping us transition smoothly to the next steps. <br> <br>
+        
+        <b>Stakeholders Map </b><br> <br>
+        
+        After completing the Why Web Map, the next task was to construct the Stakeholder Map for hospital administration. The Stakeholder Map helps identify individuals, groups, or entities directly or indirectly involved in or affected by administrative issues. Once we identified the stakeholders, we connected them to visualize their relationships and interdependencies. <br> <br>
+        
+     <b>Identification of Stakeholders</b>    <br> <br>
+        
+        Primary Stakeholders: <br> <br>
+        These are individuals or groups directly involved or impacted by hospital administration. <br> <br>
+        
+        Doctors: Responsible for diagnosing and treating patients through consultations and prescribed medications. <br> <br>
+        Nurses: Provide direct care to patients, assisting doctors and ensuring patient comfort. <br> <br>
+        Patients: The main users of the hospital’s services. <br> <br>
+        Administrative Staff: Manage appointments, cash counters, and the overall administrative tasks in the hospital. <br> <br>
+        Support Staff: Responsible for cleaning, running the canteen, and handling operational tasks like recruitment. <br> <br>
+        Pharmacists: Dispense medicines based on doctor prescriptions. <br> <br>
+        Secondary Stakeholders:
+        These groups either influence or are influenced by hospital administration. <br> <br>
+        
+        Government and Policymakers: Provide funding and establish regulations governing hospital operations. <br> <br>
+        Suppliers: Supply essential medical equipment, medicines, and other hospital necessities. <br> <br>
+        NGOs: Often involved in health sector initiatives or hospital support programs. <br> <br>
+        Local Community: Affected by the hospital's services and its reputation in the area. <br> <br>
+        Media: Reports on hospital performance and issues. <br> <br>
+        Technicians: Maintain the hospital’s equipment and IT systems. <br> <br>
+        Educational Institutions: Medical colleges that collaborate with the hospital for internships and training. <br> <br>
+        This Stakeholder Map was initially drawn on the whiteboard and later recreated using the Miro app for better visualization. <br> <br>
+    <h2>Stakeholder Map</h2>
+    </div>
+    <div class="session-7-image">
+        <img src="main-page-image/session7-02.webp" alt="">
+    </div>
+    <div class="session-7-image">  <embed src="Stakeholder_Map.pdf" type=""></div>
+    <div class="session-7-txt">
+      <h2> Empathy Map</h2>  <br>
+        
+        An empathy map is typically divided into several sections, such as what stakeholders feel, think, see, say, hear, do, as well as their pain points and gains. Below is our Empathy Map focused on the administration of government hospitals: br <br> <br></div>
+    <div class="session-7-image">
+        <img src="main-page-image/session7-03.webp" alt=""> 
+    </div>
+</div>
+<br>
+<div class="session-7-image">
+    <img src="emphty-map.png" alt=""> 
+</div>
+<br>
+
+<h1 id="Essentia">Essentia</h1>
+<div class="session-8">
+<div class="session-8-txt">
+    <b>Session Overview</b> <br><br>
+    
+    In today’s session, we continued progressing through the design thinking process. After completing the **Empathize** stage, where we focused on understanding the problem and the perspectives of the stakeholders, we transitioned to the **Define** stage. This stage is crucial as it helps in clearly articulating the problem at hand and its underlying causes. <br><br>
+    
+    As a team, we collaborated to analyze the issues faced by government hospitals and identified the core problem: **administration issues**. This broad issue is intricately tied to several key factors that contribute to its complexity, including **lack of funding**, **insufficient technology**, **poor infrastructure and engineering**, and **lack of proper education and training** for hospital staff. <br><br>
+    
+    Once we had a clearer understanding of the problem, we brainstormed and came up with three key **"How Might We" (HMW)** questions. These questions are intended to help us reframe the problem and guide our search for solutions by focusing on actionable opportunities. Each question addresses a specific area that needs improvement and offers a starting point for innovative thinking. The **HMW** questions are as follows:
+     <br><br>
+    1. How might we use technology to improve hospital management and make the administrative process more time-efficient for both staff and patients?  <br><br>
+       This question focuses on exploring ways to leverage technology, such as digital tools, automated systems, or management software, to streamline the administrative processes and reduce delays or inefficiencies in hospital operations. <br><br>
+    
+    2. How might we educate and raise awareness among the staff of government hospitals to establish proper channels of administration and safety?  <br><br>
+       This question tackles the issue of educating hospital staff to improve their understanding of administrative processes, safety protocols, and the importance of following structured procedures, which can ultimately lead to better management and smoother operations. <br><br>
+    
+    3. How might we increase funding for government hospitals so that there is an improvement in management, hygiene, and a more equitable distribution of resources?  <br><br>
+       Addressing the financial constraints that many government hospitals face, this question aims to explore ways to secure additional funding or resources to improve hospital infrastructure, hygiene standards, and overall management, thereby improving the quality of care provided. <br><br>
+    
+    These HMW questions will serve as the foundation for our next steps in the design thinking process, guiding us as we develop practical, innovative, and human-centered solutions. By framing the problem in this way, we can ensure that our efforts remain focused on solving the core issues and improving the overall administration of government hospitals. <br><br>
+    
+    Here is the documentation from today’s session, summarizing our work and progress so far….
+</div>
+
+
+<div class="session-8-image">
+    <img src="main-page-image/session8-1.webp" alt="">
+</div>
+<br>
+<h1>Final PPT</h1>
+<div class="session-7-image" id="report">  <embed src="ppt.pdf" type=""></div>
+    <br>
+<h1>Final Report</h1>
+<div class="session-7-image" id="report">  <embed src="DT-Report.pdf" type=""></div>
+<br>
+
+
+<div class="session-8-image">
+    <img src="main-page-image/session8-2.webp" alt="">
+</div>
+</div>
+
+<h1>❤️Thank You❤️</h1>
+
+
+</body>
+
+</html>

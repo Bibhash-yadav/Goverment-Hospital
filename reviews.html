@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+</head>
+<style>
+        .reviews-img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .reviews-img img{
+        width: 100px;
+        height: 500px;
+        border-radius: 20px;
+        border: 2px solid red;
+    }
+    .reviews-img img:hover{
+        width: 76%;
+        height: 500px;
+        border-radius: 50px;
+    }
+    @media only screen and (max-width:836px) {
+        .reviews-img{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews-img img{
+            width: 80%;
+            height: 50px;
+        }
+        .reviews-img img:hover{
+            width: 100%;
+            height: 220px;
+            border-radius: 20px;
+        }
+    }
+</style>
+<body>
+    <div class="reviews-img" id="review">
+        <img src="hospital video/reviews/1.png" alt="Reviews">
+        <img src="hospital video/reviews/2.png" alt="Reviews">
+        <img src="hospital video/reviews/3.png" alt="Reviews">
+        <img src="hospital video/reviews/4.png" alt="Reviews">
+        <img src="hospital video/reviews/5.png" alt="Reviews">
+        <img src="hospital video/reviews/6.png" alt="Reviews">
+    </div>
+</body>
+</html>
